@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -20,18 +20,18 @@
             <button id="searchBtn">Search</button>
         </div>
 
-        <!-- Message Area -->
+        <!-- Message Area (Loading / Error / Welcome) -->
         <div id="message"></div>
 
-        <!-- Current Weather -->
+        <!-- Current Weather Section -->
         <div class="current-weather">
             <h2 id="city-name"></h2>
-            <img id="weather-icon" />
+            <img id="weather-icon" alt="Weather Icon">
             <p id="temperature"></p>
             <p id="description"></p>
         </div>
 
-        <!-- 5-Day Forecast Section -->
+        <!-- Forecast Section -->
         <h3 class="forecast-title">5-Day Forecast</h3>
         <div id="forecast" class="forecast-container"></div>
 
@@ -39,6 +39,8 @@
 
     <!-- Axios CDN -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- App Script -->
     <script src="app.js"></script>
 
 </body>
