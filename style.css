@@ -13,6 +13,7 @@ body {
     padding: 30px;
     border-radius: 12px;
     text-align: center;
+part-3-oop-forecast
     width: 90%;
     max-width: 600px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
@@ -20,6 +21,9 @@ body {
 
 h1 {
     margin-bottom: 20px;
+
+    width: 300px;
+  main
 }
 
 .search-section {
@@ -27,6 +31,7 @@ h1 {
 }
 
 #cityInput {
+ part-3-oop-forecast
     padding: 10px;
     width: 60%;
     border-radius: 6px;
@@ -63,10 +68,24 @@ h1 {
 
 .current-weather img {
     width: 80px;
+
+    padding: 8px;
+    width: 180px;
+}
+
+#searchBtn {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: lightgray;
+main
 }
 
 .error {
     color: red;
+ part-3-oop-forecast
     font-weight: bold;
     margin-top: 10px;
 }
@@ -110,4 +129,13 @@ h1 {
     #searchBtn {
         width: 100%;
     }
+
+    margin-top: 10px;
+}
+
+.loading {
+    margin-top: 10px;
+    font-weight: bold;
+    color: blue;
+ main
 }
