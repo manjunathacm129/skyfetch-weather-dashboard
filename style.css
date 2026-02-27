@@ -13,17 +13,9 @@ body {
     padding: 30px;
     border-radius: 12px;
     text-align: center;
-part-3-oop-forecast
     width: 90%;
-    max-width: 600px;
+    max-width: 650px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-    margin-bottom: 20px;
-
-    width: 300px;
-  main
 }
 
 .search-section {
@@ -31,67 +23,62 @@ h1 {
 }
 
 #cityInput {
- part-3-oop-forecast
     padding: 10px;
     width: 60%;
     border-radius: 6px;
     border: 1px solid #ccc;
-    outline: none;
-}
-
-#cityInput:focus {
-    border-color: #4facfe;
 }
 
 #searchBtn {
     padding: 10px 15px;
     border: none;
     border-radius: 6px;
-    cursor: pointer;
     background-color: #4facfe;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #searchBtn:hover {
     background-color: #007bff;
 }
 
-#searchBtn:disabled {
-    background-color: gray;
-    cursor: not-allowed;
+.recent-section {
+    margin-top: 20px;
 }
 
-.current-weather {
-    margin-top: 20px;
+.recent-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.recent-btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 20px;
+    background: #e0e0e0;
+    cursor: pointer;
+}
+
+.clear-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    background: red;
+    color: white;
+    cursor: pointer;
 }
 
 .current-weather img {
     width: 80px;
-
-    padding: 8px;
-    width: 180px;
-}
-
-#searchBtn {
-    padding: 8px 12px;
-    cursor: pointer;
-}
-
-#searchBtn:hover {
-    background-color: lightgray;
-main
 }
 
 .error {
     color: red;
- part-3-oop-forecast
     font-weight: bold;
-    margin-top: 10px;
-}
-
-.forecast-title {
-    margin-top: 30px;
 }
 
 .forecast-container {
@@ -105,37 +92,4 @@ main
     background: #f2f2f2;
     padding: 15px;
     border-radius: 10px;
-    transition: transform 0.2s ease;
-}
-
-.forecast-card:hover {
-    transform: scale(1.05);
-}
-
-.forecast-card img {
-    width: 50px;
-}
-
-.forecast-card h4 {
-    margin: 5px 0;
-}
-
-@media (max-width: 500px) {
-    #cityInput {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    #searchBtn {
-        width: 100%;
-    }
-
-    margin-top: 10px;
-}
-
-.loading {
-    margin-top: 10px;
-    font-weight: bold;
-    color: blue;
- main
 }
